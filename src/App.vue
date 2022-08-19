@@ -69,13 +69,15 @@
             v-bind="attrs"
             v-on="on"
           >
-            <v-icon>mdi-dots-vertical</v-icon>
+          <v-list-item-avatar>
+            <img src="https://randomuser.me/api/portraits/women/81.jpg">
+          </v-list-item-avatar>
           </v-btn>
         </template>
 
         <v-list>
           <v-list-item
-            v-for="n in 5"
+            v-for="n in 2"
             :key="n"
             @click="() => {}"
           >
